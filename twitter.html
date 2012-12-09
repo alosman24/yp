@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Twitter</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.2.0.min.css" />     
+	<link rel="stylesheet" href="css/ris.min.css"/>
+        <link rel="stylesheet" href="css/ris.css"/>
+    
+	<script src="scripts/jquery-1.8.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.2.0.min.js"></script>
+        <script src="scripts/twitter.js"></script>
+	<script src="scripts/ris.js"></script>
+
+
+</head>
+<body>
+     
+
+<div data-role="page" data-theme="b" id="twitter">
+
+ <header data-role="header" data-position="fixed" data-theme="b">
+       <h1>RIS CANADA 2012</h1>
+<a href="about.html" data-icon="info" class="ui-btn-right">About Us</a>
+ </header>
+
+ <div data-role="content" data-theme="b">
+   
+	<ul class="ui-listview ui-listview-inset ui-corner-all ui-shadow" data-inset="true" data-role="listview">
+
+                <li data-role="list-divider">
+                   Twitter
+                </li>
+		<li class="ui-li ui-li-static ui-body-c ui-corner-top ui-corner-bottom">
+			<div id="jstwitter"></div>
+		</li>
+	</ul>
+     
+ </div>
+
+ <div data-role="footer" data-id="foo1" data-position="fixed">
+   <div data-role="navbar">
+     <ul>
+
+       <li><a href="index.html#index" data-transition="fade"> <img src="images/schedule.png"/><br>Sessions</a></li>
+       <li><a href="speakers.html" data-transition="fade"> <img src="images/speakers.png"/> <br> Speakers</a></li>
+       <li><a href="twitter.html" data-transition="fade" class="ui-btn-active ui-state-persist"> <img src="images/twitter.png"/> <br> Twitter</a></li>
+       <li><a href="instagram.html" data-transition="fade"> <img src="images/instagram.png"/> <br> Instagram</a></li>
+       <li><a href="announcements.html" data-transition="fade"> <img src="images/announcements.png"/> <br> Announcements</a></li>
+     </ul>
+   </div><!-- /navbar -->
+ </div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>

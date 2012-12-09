@@ -1,0 +1,64 @@
+<html>
+<head> 
+	<title>Index</title> 
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/ris.css" />
+	<script src="scripts/jquery-1.8.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.2.0.min.js"></script>
+	<script src="scripts/ris.js"></script>
+</head> 
+<body> 
+
+<script>
+$(document).ready(function () {
+	// start jqtweet!
+	JQTWEET.loadTweets();
+});
+</script>
+
+<div data-role="page" data-theme="a" id="splash" style="background-color: #fff;">
+    <div class="splash">
+        <img src="images/splash.png" alt="splash" />
+    </div>
+</div>
+
+<div data-role="page" data-theme="b" id="index">
+
+ <header data-role="header" data-position="fixed" data-theme="b">
+       <h1>RIS CANADA 2012</h1>
+ </header>
+
+ <div data-role="content">
+   <div data-role="content">
+     <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
+       <li data-role="list-divider">Overview</li>
+       <li><a href="docs/about/features.html">Features</a></li>
+       <li><a href="docs/about/accessibility.html">Accessibility</a></li>
+       <li><a href="docs/about/platforms.html">Supported platforms</a></li>
+     </ul>
+   </div>
+ </div>
+
+ <div data-role="footer" data-id="foo1" data-position="fixed">
+   <div data-role="navbar">
+     <ul>
+
+       <li><a href="index.html#index" data-transition="pop" class="ui-btn-active ui-state-persist"> <img src="images/schedule.png"/><br>Sessions</a></li>
+       <li><a href="speakers.html"> <img src="images/speakers.png"/> <br> Speakers</a></li>
+       <li><a href="twitter.html" data-transition="pop"> <img src="images/twitter.png"/> <br> Twitter</a></li>
+       <li><a href="c.html" data-transition="pop"> <img src="images/instagram.png"/> <br> Instagram</a></li>
+       <li><a href="about.html" data-transition="pop"> <img src="images/about.png"/> <br>About</a></li>
+     </ul>
+   </div><!-- /navbar -->
+ </div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+
+</body>
+</html>
+

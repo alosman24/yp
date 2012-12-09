@@ -1,0 +1,35 @@
+.splash {
+   align: center;
+  
+}
+
+#jstwitter {
+    font-family: arial;
+    font-size: 16px;
+    font-style: normal;
+    padding: 10px;
+
+}
+ 
+#jstwitter .tweet {
+    margin: 0 auto 15px auto;
+    padding: 0 0 10px 0;
+    border-bottom: 1px dotted #ccc;
+}
+ 
+#jstwitter .tweet a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #63b8ff;
+}
+ 
+#jstwitter .tweet a:hover {
+    text-decoration: underline;
+}
+ 
+#jstwitter .tweet .time {
+    font-size: 10px;
+    font-style: italic;
+    color: #666666;
+}
+
